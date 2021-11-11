@@ -1,0 +1,71 @@
+.contenuto{
+    background-image: url("../img/notfound-desktop.jpg") ;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 95vh;
+    position: relative;
+}
+.contenuto_logo{
+    
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+
+}
+.contenuto_logo_btn{
+    width: 40px;
+    height:30px;
+    border-radius: 17px;
+    margin-left: 3%; 
+}
+.contenuto_logo_img{
+    height: 40%;
+    width: auto;
+    margin-left: 2%;
+    
+}
+.contenuto_text-container{
+    color: white;
+    position: absolute;
+    top: 16%;
+    left: 5%;
+    font-size: large;
+}
+.contenuto_text-container__dettagli{
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+.contenuto_text-container__btn{
+    width: 40%;
+}
+
+.followUs{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    width: 33%;
+    position: absolute;
+    top: 90%;
+    right: 10%;
+    text-align: center;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(39 38 38);
+}
+.coppy{
+    margin-top: 2%;
+    width: 35%;
+    color: white;
+    font-size: 0.8em;
+}
+.pagamento{
+    margin-top: 2%;
+    width: 30%;
+}
+.pagamento>*{
+    width: 37px;
+    height: 27px;
+}
