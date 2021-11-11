@@ -31,23 +31,33 @@
     top: 16%;
     left: 5%;
     font-size: large;
+    margin-top: 10px;
 }
 .contenuto_text-container__dettagli{
-    margin-top: 8%;
-    margin-bottom: 8%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.contenuto_text-container__dettagli p{
+    font-size: 0.7em;
 }
 .contenuto_text-container__btn{
-    width: 40%;
+    width: 45%;
+    margin-bottom: 3%;
 }
 
 .followUs{
     color: white;
     display: flex;
     justify-content: space-evenly;
-    width: 33%;
+    width: 30%;
     position: absolute;
     top: 90%;
-    right: 10%;
+    right: 3%;
+    text-align: center;
+    
+}
+.followUs p{
+    font-size: 0.9em;
     text-align: center;
 }
 footer{
@@ -57,7 +67,7 @@ footer{
 }
 .coppy{
     margin-top: 2%;
-    width: 35%;
+    width: 45%;
     color: white;
     font-size: 0.8em;
 }
@@ -68,4 +78,48 @@ footer{
 .pagamento>*{
     width: 37px;
     height: 27px;
+}
+@media screen and (max-width: 374px) {
+    .contenuto{
+        background-image: url(../img/notfound-mobile.jpg);
+    }
+    .contenuto_logo{
+        justify-content: center;
+    }
+    .contenuto_text-container{
+        left: 8%;
+        top:13%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .contenuto_text-container__dettagli p {
+        font-size: 0.9em;
+        margin-bottom: 0.7rem;
+    }
+    .contenuto_text-container__btn{
+        width: 75%;
+        height: 50px;
+        margin-bottom: 3%;
+        margin-left: 3%;
+    }
+    .followUs{
+        flex-direction: column;
+        right: 0%;
+        width: 100%;
+        top: 87%;
+    }
+    .followUs i {
+        margin-left: 5px;
+    }
+    footer{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .coppy{
+        width: 100%;
+    }
+    .pagamento{
+        width: 100%;
+    }
 }
