@@ -1,52 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="../css/style2.css" />
     <title>consegnia</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        
-            <button></button>
-            <img src="../img/logoWhite.png" alt="" class="logo">
-            <button>shop</button>
-    
-        
-        <div>
-            <input type="text" value="cerca prodotto" />
-            <i class="fas fa-search"></i>
-        </div>
-
-        <span>Esplora</span>
-        <span>Negozi</span>
-        <button><i class="fas fa-fire"></i></button>
-        <button><i class="fas fa-shopping-cart"></i></button>
-        <button><i class="fas fa-user"></i></button>
+      <div class="header_menu__humburger">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+      <button></button>
+      <img src="../img/logoWhite.png" alt="" class="header_logo" />
+      <button>shop</button>
+      <img src="../img/location.png" alt="" />
+      <div class="header_barraRicherca">
+        <input type="text" value="cerca prodotto" />
+        <i class="fas fa-search"></i>
+      </div>
+      <span>Esplora</span>
+      <span>Negozi</span>
+      <button><i class="fas fa-fire"></i></button>
+      <button><i class="fas fa-shopping-cart"></i></button>
+      <button><i class="fas fa-user"></i></button>
     </header>
     <section class="banner">
-        <picture>
-            <source media="(min-width:768px)" srcset="../img/D_HB_consegnaGrande.png">
-            <source media="(max-width:767px)" srcset="../img/M_HB_consegna.png">
-            <img src="..img/M_HB_consegna.png" alt="">
+      <picture>
+        <source
+          media="(min-width:768px)"
+          srcset="../img/D_HB_consegnaGrande.png"
+        />
+        <source media="(max-width:767px)" srcset="../img/M_HB_consegna.png" />
+        <img src="..img/M_HB_consegna.png" alt="" />
+      </picture>
+      <div class="banner_container">
+        <div class="banner_title">Consegna a Domicilio</div>
+        <button><img src="../img/star.png" alt="" /></button>
+
+        <button><img src="../img/falling-star (1).png" alt="" /></button>
+        <button><img src="../img/calendar.png" alt="" /></button>
+        <span>Standard</span>
+        <span>rapida</span>
+        <span>Su appuntamento</span>
+      </div>
+      
+    </section>
+    <section class="banner_rev-banner">
+      <div class="banner_redactional">
+        <span>HOME</span>
+        <span>|</span>
+        <span>Consegna a Domicilio</span>
+        <span>dal sito</span>
+        <span>D'all app</span>
+        <span>Dal negozio</span>
+        <h2 class="banner_redactional__title">
+          Come scegliere la tua consegna
+        </h2>
+      </div>
+      <div class="rev-banner_imgsContainer">
+        <picture class="rev-banner_imgs">
+          <source media="(min-width:768px)" srcset="../img/M_dalSito.png" />
+          <source media="(max-width:767px)" srcset="../img/D_dalSito.png" />
+          <img src="../img/D_dalSito.png" />
         </picture>
-        <div class="banner_container">
-            <div class="banner_title"> Consegna a Domicilio</div>
-            <button><img src="../img/star.png" alt=""></button>
-            <button><img src="../img/falling-star (1).png" alt=""></button>
-            <button><img src="../img/calendar.png" alt=""></button>
+        <picture class="rev-banner_imgs">
+          <source media="(min-width:768px)" srcset="../img/D_dallapp.png" />
+          <source media="(max-width:767px)" srcset="../img/M_dallapp.png" />
+          <img src="../img/D_dallapp.png" />
+        </picture>
+        <picture class="rev-banner_imgs">
+          <source
+            media="(min-width:768px)"
+            srcset="../img/D_dalnegozio.png"
+          />
+          <source
+            media="(max-width:767px)"
+            srcset="../img/M_dalnegozio.png"
+          />
+          <img src="../img/M_dalnegozio.png" />
+        </picture>
+      </div>
+    </section>
+    <section class="steps">
+      <div class="step_one">
+        <div class="vuoto" >
+
+        </div>
+        <div>
+          <div class="step_one_step__number">1</div>
+          <span class="step_one__step-title">Seleziona <br> i prodotti che <br> desideri</span>
+          <span class="step_one__step-text">Una volta individuati i prodotti e aggiunti al carrello, puoi scegliere di riceverli all’indirizzo a te più comodo, acquistando dal sito, dall’app, oppure direttamente in negozio.</span>
+        </div>
+
+
+      </div>
+
+      <div class="step_one">
+
+        <div>
+          <div class="step_one_step__number">2</div>
+          <span class="step_one__step-title">Scegli la consegna a <br> di spedizione domicilio come metodo</span>
+          <span class="step_one__step-text">Optando per questa tipologia di consegna, potrai configurare il servizio che più si adatta alle tue esigenze.</span>
         </div>
         
-            
-         
-    </section>
-</body>
+        <div class="vuoto">
 
+        </div>
+        
+
+
+      </div>
+    </section>
+  </body>
 </html>
