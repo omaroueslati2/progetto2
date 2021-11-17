@@ -79,6 +79,10 @@ footer{
     width: 37px;
     height: 27px;
 }
+.sub_footer{
+    display: flex;
+}
+.sub_footer__address
 @media screen and (max-width: 374px) {
     .contenuto{
         background-image: url(../img/notfound-mobile.jpg);
